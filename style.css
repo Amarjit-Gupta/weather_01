@@ -1,0 +1,212 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+html{font-size: 10px;}
+
+.heading {
+    text-align: center;
+    font-size: 5rem;
+    padding: 2.5rem 0rem 2.5rem 0rem;
+    color: rgb(138, 138, 240);
+}
+
+.main-container {
+    height: 50rem;
+    width: 42rem;
+    position: relative;
+    background-color: rgb(168, 194, 240);
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.container1 {
+    height: 5rem;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 2.5rem;
+}
+
+#weather {
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+
+#weather span {
+    font-size: 3rem;
+}
+
+.container2 {
+    height: 5rem;
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(135, 135, 237);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.container3 {
+    height: 5rem;
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(135, 135, 237);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.container4 {
+    height: 7.5rem;
+    width: 35rem;
+    display: grid;
+    grid-template-columns: repeat(2, 17.5rem);
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(135, 135, 237);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.container5 {
+    height: 6rem;
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(135, 135, 237);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.container1 input {
+    height: 4rem;
+    width: 80%;
+    border: grey solid 0.15rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    font-size: 2rem;
+    color: rgb(83, 83, 228);
+}
+
+.container1 button {
+    height: 4rem;
+    width: 18%;
+    padding: 0.2rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    border: grey solid 0.1rem;
+    background-color: rgb(135, 135, 237);
+    color: white;
+    font-size: 1.8rem;
+}
+
+.container2 .icon {
+    height: 7.5rem;
+    width: 7.5rem;
+}
+
+.container2 .text1 {
+    height: 5rem;
+    width: 15rem;
+    font-size: 3rem;
+    align-content: center;
+}
+
+.container2 .icon img {
+    height: 7.5rem;
+    width: 7.5rem;
+}
+
+.container3 .text2 {
+    height: 5rem;
+    width: 15rem;
+    align-content: center;
+}
+
+.container3 .text3 {
+    height: 5rem;
+    width: 10rem;
+    align-content: center;
+}
+
+.item1 {
+    height: 3.5rem;
+}
+
+.a1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 2.5rem;
+    align-content: center;
+}
+
+.a2,
+.a3 {
+    font-size: 1.8rem;
+    align-content: center;
+}
+
+.item2 {
+    height: 6rem;
+    width: 18rem;
+    display: grid;
+    grid-template-columns: repeat(2, 8.8rem);
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 8.8rem;
+}
+
+.a {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-droplet,
+.fa-wind {
+    color: rgb(50, 115, 227);
+    font-size: 3.5rem;
+}
+
+.a img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.b {
+    font-size: 1.8rem;
+}
+
+#loading {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    height: 5rem;
+    width: 5rem;
+}
+
+#loading img {
+    height: 7rem;
+    width: 7rem;
+}
+
+@media only screen and (max-width:460px){
+    html{font-size:7.6px;}
+}
